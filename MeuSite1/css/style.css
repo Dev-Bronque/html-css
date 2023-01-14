@@ -1,0 +1,172 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+
+    --cor1: #1a77c9;
+    --cor2: #F23C13;
+    --cor3: #f26513bb;
+
+}
+
+
+
+/***********************CONFIGS GLOBAIS***********************/
+
+* {
+
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+
+
+/***********************CABEÇALHO DO SITE***********************/
+
+header {
+
+background-color: var(--cor1);
+
+
+}
+
+
+
+img {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 200px;
+
+
+}
+
+
+
+
+
+
+/***********************MENU DO SITE***********************/
+
+nav.menu {
+
+    background-color: var(--cor2);
+    padding: 10px;
+
+}
+
+nav.menu a{
+
+    text-decoration: none;
+    color: #F2F2F2; 
+    padding: 5px;
+    background-color: #F23C13;
+    
+}
+
+
+.menu a:hover {
+border-radius: 10px;
+background-color: #f2f2f22f;
+
+
+} 
+
+
+nav.menu ul > li {
+
+       
+     display: inline-block;
+     text-transform: uppercase;
+     font-weight: bolder;
+     
+  
+
+}
+
+
+/***********************CORPO DO SITE***********************/
+body {
+    
+        background-color: var(--cor3);
+        text-align: justify;
+    
+
+    }
+
+/***********************SEÇÃO PRINCIPAL PRINCIPAL**********************/   
+
+section {
+
+
+background-color: rgb(255, 255, 255);
+margin: auto;
+max-width: 1200px;
+min-width: 450px;
+padding: 15px;
+text-indent: 30px;
+line-height: 1.8em;
+box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.377);
+
+
+}
+
+h1.titulo {
+
+    color: rgb(0, 0, 0);
+    background-color: rgba(231, 224, 224, 0.432);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.377);
+    #text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.377);
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding: 5px;
+ 
+    
+  
+
+}
+
+
+p {
+
+padding: 20px;
+text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.377);
+
+}
+
+/***********************VIDEO**********************/   
+
+
+
+iframe.video {
+
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 5px;
+  
+}
+
+
+
+
+
+/***********************RODAPÉ**********************/   
+
+footer {
+
+background-color: var(--cor2);
+padding: 50px;
+
+
+}
+
+footer > p {
+
+
+    text-align: center;
+    font-weight: 500;
+}
